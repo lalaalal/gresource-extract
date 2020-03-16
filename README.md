@@ -16,6 +16,8 @@ Options
 #### ./build.sh usage
 ```
 Usage: ./build.sh [options]
+
+Options
   -a --apply              apply to default gnome shell theme (root required)
   -i --input <directory>  set input directory (default : theme)
 ```
