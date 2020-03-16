@@ -4,6 +4,22 @@
 
 Run `./extract.sh` to extract your current theme to `./theme` in the same folder as the extract script.
 
+#### ./extract.sh usage
+```
+Usage: ./extract.sh [options]
+
+Options
+  -i --input <file>       set input file (default : /usr/share/gnome-shell/gnome-shell-theme.gresource)
+  -o --output <directory> set output directory (default : theme)
+```
+
+#### ./build.sh usage
+```
+Usage: ./build.sh [options]
+  -a --apply              apply to default gnome shell theme (root required)
+  -i --input <directory>  set input directory (default : theme)
+```
+
 #### Editing the font
 
 Edit `gnome-shell.css`. Change the font to your custom font. E.g:
