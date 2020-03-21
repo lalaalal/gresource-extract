@@ -45,7 +45,7 @@ glib-compile-resources --sourcedir=$INPUT gnome-shell-theme.gresource.xml
 
 echo "-> gnome-shell-theme.gresource"
 
-if [ -z $APPLY_FLAT ]; then
+if [ "$APPLY_FLAG" == "true" ]; then
 	echo "Making backup"
 	cp /usr/share/gnome-shell/gnome-shell-theme.gresource gnome-shell-theme.gresource.bak
 	echo "Applying gnome-shell-theme"
